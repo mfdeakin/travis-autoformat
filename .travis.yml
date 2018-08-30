@@ -12,3 +12,4 @@ env:
 script:
 - echo "Script"
 - echo "SOMEVAR => ${SOMEVAR}"
+- sh format-script.sh
