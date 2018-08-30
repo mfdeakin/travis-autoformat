@@ -11,7 +11,4 @@ env:
 
 script:
 - echo "Script"
-- echo "${TRAVIS_CC}"
-- echo "SOMEVAR"
-- echo "SOMEVAR"
 - echo "${SOMEVAR}"
