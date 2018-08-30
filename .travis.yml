@@ -5,5 +5,10 @@ dist: trusty
 os:
 - linux
 
+SOMEVAR=secretvalue:
+  secure: uTs09MrZ9+vcEyPPjSXdb+OsjWlAqDMYq6AbVgz4OluPCysKqE/AvEC60wauK1cz9dGuBOz4OW1zHoovRTiZjDvPetu5GVdN+sigTl3C/eWwZPOt+V0XHXioYq/58KQyrr3Ldn0rWI6EgH3d7Z4BCLe8/YtXn5wXfyeqTsKB9cVGKSjaDlrz9bUzoh6YULZOHR5vs+0gqfW6NGK7dMQhAE8Tg+/gT3+BIJzoZ8pYB9rljhG7wb093CZt60Jf6ZkIevkUFE0hkYEMzGD0LDJ35GhJXBrb9yNS0ZTqN9drzKVSU9ovmdMhcSvryz/CcS8e2xdfQfhTzz7ajPv9RWMWJsp6y8YAVwb+e1cqSDOwi2t5bzYMt+K3k/5bzSJXiavzFXqqp9ulrbukAand5ErV+es2l+QFxNaDJMM4oc2aVwvIyEqBL1GCuhSCRC6TQlP9Ijbwt5pE6UBRnpnCzFVPh0CSRrbw9X4NdaMeeNzXS4Mv4iwwLrHNNWaLhR94pUZMCr+h7PXCpE0nSXMBFnrgts3B4KPMIfxUDsGcjDnLujvQXM1qt/nuZh4JsRhyddBk519ZiBfJRFEmH22yuWkjalDj1K+O4Sa6V+oAlO5A2Tc6tU47InSN+TT0Lb9yQCEFJiduzDchmTRc5dSZ4xcQKdGlL7OSoinIRwtqYvTBBjA=
+
 script:
 - echo "Script"
+- echo "SOMEVAR: ${SOMEVAR}"
+
